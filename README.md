@@ -10,7 +10,7 @@
 -  🏴‍☠️ C2 Development & Evasions
 -  🌱 Red Teaming & CTFs in free time
 
-[![My Skills](https://skillicons.dev/icons?i=aws,python,terraform,kubernetes,jenkins,apple,arch,firebase,docker,golang)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,python,terraform,kubernetes,jenkins,apple,arch,firebase,docker,golang,bash)](https://skillicons.dev)
 
 <img width="1749" alt="image" src="https://github.com/Rajchowdhury420/Rajchowdhury420/assets/30806882/66c0fd47-56d6-419b-bd50-ec47bfb065a3">
 
