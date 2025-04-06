@@ -7,7 +7,7 @@
 <!-- … [![Spotify](https://novatorem.rajchowdhury420.vercel.app//api/spotify)](https://open.spotify.com/user/nenedo6969trydfada1qiw864) -->
 
 -  🔭 Cloud Engineer
--  C2 Development & Evasions
+-  🏴‍☠️ C2 Development & Evasions
 -  🌱 Red Teaming & CTFs in free time
 
 [![My Skills](https://skillicons.dev/icons?i=aws,python,terraform,kubernetes,jenkins,apple,arch,firebase,docker)](https://skillicons.dev)
