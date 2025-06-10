@@ -5,7 +5,7 @@
 
 <!-- … [![Spotify](https://novatorem.rajchowdhury420.vercel.app//api/spotify)](https://open.spotify.com/user/nenedo6969trydfada1qiw864) -->
 
--  🔭 Cloud Engineer
+-  🔭 Senior Cloud Engineer
 -  📜 OSCP+
 -  🏴‍☠️ C2 Development & Evasions
 -  🌱 Red Teaming & CTFs in free time
