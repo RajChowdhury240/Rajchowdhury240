@@ -10,6 +10,8 @@
 -  🏴‍☠️ C2 Development & Evasions
 -  🌱 Red Teaming & CTFs in free time
 
+![](https://cn-sec.com/images_cnsec/qrCode_l.gif)
+
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
