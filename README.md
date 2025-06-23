@@ -4,13 +4,13 @@
 ![](https://komarev.com/ghpvc/?username=Rajchowdhury420&label=PROFILE+VIEWS)
 
 <!-- … [![Spotify](https://novatorem.rajchowdhury420.vercel.app//api/spotify)](https://open.spotify.com/user/nenedo6969trydfada1qiw864) -->
-
+![](https://cn-sec.com/images_cnsec/qrCode_l.gif)
 -  🔭 Senior Cloud Engineer
 -  📜 OSCP+
 -  🏴‍☠️ C2 Development & Evasions
 -  🌱 Red Teaming & CTFs in free time
 
-![](https://cn-sec.com/images_cnsec/qrCode_l.gif)
+
 
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
