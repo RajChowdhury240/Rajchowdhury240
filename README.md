@@ -21,8 +21,7 @@
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
-
-<img width="1749" alt="image" src="https://github.com/Rajchowdhury420/Rajchowdhury420/assets/30806882/66c0fd47-56d6-419b-bd50-ec47bfb065a3">
+<img width="2606" height="1650" alt="image" src="https://github.com/user-attachments/assets/39ec8c1a-e033-4250-a3e5-00541efc671b" />
 
   
 
