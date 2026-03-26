@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+<defs>
+<marker id="arrR" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth"><polygon points="0 0, 10 3.5, 0 7" fill="#475569"/></marker>
+<marker id="arrL" markerWidth="10" markerHeight="7" refX="1" refY="3.5" orient="auto" markerUnits="strokeWidth"><polygon points="10 0, 0 3.5, 10 7" fill="#475569"/></marker>
+<marker id="arrB" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto" markerUnits="strokeWidth"><polygon points="0 0, 10 3.5, 0 7" fill="#3b82f6"/></marker>
+<marker id="arrBL" markerWidth="10" markerHeight="7" refX="1" refY="3.5" orient="auto" markerUnits="strokeWidth"><polygon points="10 0, 0 3.5, 10 7" fill="#3b82f6"/></marker>
+</defs>
+
+<!-- Background -->
+<rect width="3840" height="2160" fill="#f8fafc"/>
+
+<!-- Title -->
+<text x="1920" y="100" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="56" font-weight="700" fill="#0f172a" letter-spacing="1">Infrastructure Architecture Diagram</text>
+<rect x="1620" y="118" width="600" height="4" rx="2" fill="#0ea5e9"/>
+
+<!-- ========== CONTAINER ELLIPSE ========== -->
+<ellipse cx="1520" cy="1040" rx="1300" ry="740" fill="#eef2f7" stroke="#94a3b8" stroke-width="3" fill-opacity="0.7"/>
+<rect x="1400" y="310" width="240" height="46" rx="23" fill="#334155"/>
+<text x="1520" y="340" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="21" font-weight="700" fill="#ffffff" letter-spacing="1">CONTAINER</text>
+
+<!-- ========== ANY ZONE - DEVICE 1 (top left) ========== -->
+<rect x="380" y="460" width="420" height="310" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="380" y="460" width="420" height="50" rx="16" fill="#e2e8f0"/>
+<rect x="380" y="494" width="420" height="16" fill="#e2e8f0"/>
+<text x="590" y="494" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#475569">ANY ZONE</text>
+
+<!-- Device 1 chip -->
+<rect x="470" y="540" width="240" height="60" rx="10" fill="#059669"/>
+<rect x="470" y="540" width="240" height="60" rx="10" fill="url(#none)" stroke="none"/>
+<!-- Gear icon for Device 1 -->
+<circle cx="510" cy="570" r="12" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="510" y1="552" x2="510" y2="558" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="510" y1="582" x2="510" y2="588" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="492" y1="570" x2="498" y2="570" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="522" y1="570" x2="528" y2="570" stroke="#ffffff" stroke-width="2.5"/>
+<text x="600" y="578" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Device</text>
+
+<!-- Agent label 1 -->
+<rect x="530" y="626" width="130" height="40" rx="8" fill="#f8fafc" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="595" y="652" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="500" fill="#475569">Agent</text>
+
+<!-- ========== ANY ZONE - DEVICE 2 (bottom left) ========== -->
+<rect x="380" y="860" width="420" height="310" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="380" y="860" width="420" height="50" rx="16" fill="#e2e8f0"/>
+<rect x="380" y="894" width="420" height="16" fill="#e2e8f0"/>
+<text x="590" y="894" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="700" fill="#475569">ANY ZONE</text>
+
+<!-- Device 2 chip -->
+<rect x="470" y="940" width="240" height="60" rx="10" fill="#059669"/>
+<circle cx="510" cy="970" r="12" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="510" y1="952" x2="510" y2="958" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="510" y1="982" x2="510" y2="988" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="492" y1="970" x2="498" y2="970" stroke="#ffffff" stroke-width="2.5"/>
+<line x1="522" y1="970" x2="528" y2="970" stroke="#ffffff" stroke-width="2.5"/>
+<text x="600" y="978" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Device</text>
+
+<!-- Agent label 2 -->
+<rect x="530" y="1026" width="130" height="40" rx="8" fill="#f8fafc" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="595" y="1052" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="500" fill="#475569">Agent</text>
+
+<!-- ========== ISZ ZONE (center) ========== -->
+<rect x="1040" y="500" width="920" height="600" rx="20" fill="#f1f5f9" stroke="#64748b" stroke-width="3"/>
+<rect x="1040" y="500" width="920" height="54" rx="20" fill="#334155"/>
+<rect x="1040" y="538" width="920" height="16" fill="#334155"/>
+<text x="1500" y="536" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff" letter-spacing="1.5">ISZ ZONE</text>
+
+<!-- STORAGE ISZ -->
+<rect x="1080" y="580" width="390" height="480" rx="14" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="1080" y="580" width="390" height="48" rx="14" fill="#475569"/>
+<rect x="1080" y="614" width="390" height="14" fill="#475569"/>
+<text x="1275" y="612" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">STORAGE ISZ</text>
+
+<!-- NAS NetApp box -->
+<rect x="1120" y="660" width="310" height="130" rx="12" fill="#2563eb"/>
+<!-- Database cylinder icon -->
+<ellipse cx="1170" cy="700" rx="16" ry="8" fill="none" stroke="#ffffff" stroke-width="2"/>
+<line x1="1154" y1="700" x2="1154" y2="730" stroke="#ffffff" stroke-width="2"/>
+<line x1="1186" y1="700" x2="1186" y2="730" stroke="#ffffff" stroke-width="2"/>
+<ellipse cx="1170" cy="730" rx="16" ry="8" fill="none" stroke="#ffffff" stroke-width="2"/>
+<text x="1275" y="720" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">NAS NetApp</text>
+<text x="1275" y="755" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#bfdbfe">Network Attached Storage</text>
+
+<!-- NFS Encrypted badge -->
+<rect x="1140" y="830" width="230" height="46" rx="23" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<!-- Lock icon -->
+<rect x="1165" y="844" width="14" height="12" rx="2" fill="none" stroke="#16a34a" stroke-width="2"/>
+<path d="M1168,844 L1168,840 A4,4 0 0,1 1176,840 L1176,844" fill="none" stroke="#16a34a" stroke-width="2"/>
+<text x="1270" y="860" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="600" fill="#166534">NFS Encrypted</text>
+
+<!-- COMPUTE ISZ -->
+<rect x="1530" y="580" width="390" height="480" rx="14" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+<rect x="1530" y="580" width="390" height="48" rx="14" fill="#475569"/>
+<rect x="1530" y="614" width="390" height="14" fill="#475569"/>
+<text x="1725" y="612" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">COMPUTE ISZ</text>
+
+<!-- Analysis Server box -->
+<rect x="1570" y="660" width="310" height="130" rx="12" fill="#0891b2"/>
+<!-- Server rack icon -->
+<rect x="1600" y="685" width="36" height="12" rx="2" fill="none" stroke="#ffffff" stroke-width="2"/>
+<rect x="1600" y="703" width="36" height="12" rx="2" fill="none" stroke="#ffffff" stroke-width="2"/>
+<rect x="1600" y="721" width="36" height="12" rx="2" fill="none" stroke="#ffffff" stroke-width="2"/>
+<circle cx="1608" cy="691" r="2" fill="#ffffff"/>
+<circle cx="1608" cy="709" r="2" fill="#ffffff"/>
+<circle cx="1608" cy="727" r="2" fill="#ffffff"/>
+<text x="1740" y="720" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">Analysis Server</text>
+<text x="1740" y="755" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="400" fill="#cffafe">Compute Engine</text>
+
+<!-- Port info card -->
+<rect x="1570" y="830" width="310" height="120" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="1725" y="860" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="700" fill="#334155">HTTP ACCESS PORTS</text>
+<line x1="1610" y1="872" x2="1840" y2="872" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="1620" cy="898" r="5" fill="#0891b2"/>
+<text x="1640" y="904" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#0891b2">:8883</text>
+<text x="1780" y="904" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b">User Access</text>
+<circle cx="1620" cy="930" r="5" fill="#f59e0b"/>
+<text x="1640" y="936" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#b45309">:8880</text>
+<text x="1780" y="936" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b">Admin Access</text>
+
+<!-- NFS arrow between Storage ISZ and Compute ISZ -->
+<line x1="1470" y1="790" x2="1530" y2="790" stroke="#3b82f6" stroke-width="3" marker-end="url(#arrB)" marker-start="url(#arrBL)"/>
+
+<!-- ========== CSZ - CHEF SERVER (bottom center) ========== -->
+<rect x="1020" y="1290" width="380" height="250" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="1020" y="1290" width="380" height="48" rx="16" fill="#e2e8f0"/>
+<rect x="1020" y="1324" width="380" height="14" fill="#e2e8f0"/>
+<text x="1210" y="1322" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="19" font-weight="700" fill="#475569" letter-spacing="0.8">CSZ</text>
+
+<!-- Chef server chip -->
+<rect x="1080" y="1370" width="260" height="60" rx="10" fill="#059669"/>
+<!-- Chef hat icon simplified -->
+<circle cx="1120" cy="1394" r="8" fill="none" stroke="#ffffff" stroke-width="2"/>
+<circle cx="1110" cy="1402" r="5" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1130" cy="1402" r="5" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1224" y="1408" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Chef Server</text>
+<text x="1210" y="1474" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="400" fill="#64748b">Configuration Management</text>
+
+<!-- ========== REMOTE / BUSINESS CENTER (right) ========== -->
+<rect x="2780" y="550" width="640" height="580" rx="20" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<rect x="2780" y="550" width="640" height="54" rx="20" fill="#92400e"/>
+<rect x="2780" y="588" width="640" height="16" fill="#92400e"/>
+<text x="3100" y="586" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="0.8">REMOTE / BUSINESS CENTER</text>
+
+<!-- SYF Employee -->
+<circle cx="2960" cy="690" r="36" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="2.5"/>
+<circle cx="2960" cy="680" r="11" fill="#0ea5e9"/>
+<ellipse cx="2960" cy="706" rx="16" ry="10" fill="#0ea5e9"/>
+<text x="2960" y="756" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#0f172a">SYF Employee</text>
+<rect x="2904" y="770" width="112" height="32" rx="16" fill="#dbeafe" stroke="#93c5fd" stroke-width="1.5"/>
+<text x="2960" y="792" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#1e40af">SSO Auth</text>
+
+<!-- Contractor -->
+<circle cx="3220" cy="690" r="36" fill="#fef3c7" stroke="#f59e0b" stroke-width="2.5"/>
+<circle cx="3220" cy="680" r="11" fill="#d97706"/>
+<ellipse cx="3220" cy="706" rx="16" ry="10" fill="#d97706"/>
+<text x="3220" y="756" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Contractor</text>
+<rect x="3148" y="770" width="144" height="32" rx="16" fill="#fef9c3" stroke="#fde047" stroke-width="1.5"/>
+<text x="3220" y="792" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#854d0e">Given SSO Access</text>
+
+<!-- Zscaler badge -->
+<rect x="2890" y="880" width="420" height="60" rx="30" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+<!-- Shield -->
+<path d="M2930,896 L2920,902 L2920,912 C2920,918 2924,923 2930,925 C2936,923 2940,918 2940,912 L2940,902 Z" fill="none" stroke="#475569" stroke-width="2"/>
+<text x="3114" y="918" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="600" fill="#334155">Zscaler Secure Access</text>
+
+<text x="3100" y="990" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b">Secure remote access via</text>
+<text x="3100" y="1016" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b">Zscaler Zero Trust Network</text>
+
+<!-- ========== CONNECTION ARROWS ========== -->
+
+<!-- Device 1 to ISZ Zone -->
+<path d="M800,630 Q940,630 1040,720" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrR)"/>
+<!-- NFS label on Device 1 arrow -->
+<rect x="860" y="636" width="146" height="34" rx="17" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+<rect x="872" y="644" width="12" height="10" rx="2" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+<path d="M874,644 L874,641 A4,4 0 0,1 882,641 L882,644" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+<text x="946" y="659" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="600" fill="#1d4ed8">NFS Encrypted</text>
+
+<!-- Device 2 to ISZ Zone -->
+<path d="M800,1030 Q940,1030 1040,950" fill="none" stroke="#475569" stroke-width="3" marker-end="url(#arrR)"/>
+
+<!-- Device 2 to Chef Server via HTTPS -->
+<path d="M800,1130 Q900,1130 960,1340 Q980,1400 1020,1400" fill="none" stroke="#475569" stroke-width="2.5" stroke-dasharray="12,6" marker-end="url(#arrR)"/>
+<rect x="836" y="1218" width="90" height="32" rx="16" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="881" y="1240" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#166534">HTTPS</text>
+
+<!-- ISZ Zone to Remote (bidirectional) -->
+<line x1="1960" y1="840" x2="2780" y2="840" stroke="#475569" stroke-width="3.5" marker-end="url(#arrR)" marker-start="url(#arrL)"/>
+
+<!-- HTTP Access label on main arrow -->
+<rect x="2220" y="764" width="340" height="100" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="2390" y="798" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="18" font-weight="700" fill="#334155">HTTP Access</text>
+<line x1="2260" y1="810" x2="2520" y2="810" stroke="#e2e8f0" stroke-width="1"/>
+<text x="2390" y="836" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#0891b2">Port :8883</text>
+<text x="2390" y="858" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="16" font-weight="400" fill="#64748b">Port :8880 (Admin)</text>
+
+<!-- Zscaler label on connection line -->
+<rect x="2060" y="810" width="130" height="30" rx="15" fill="#f8fafc" stroke="#94a3b8" stroke-width="1"/>
+<path d="M2082,818 L2076,822 L2076,828 C2076,832 2078,835 2082,836 C2086,835 2088,832 2088,828 L2088,822 Z" fill="none" stroke="#475569" stroke-width="1.5"/>
+<text x="2138" y="831" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="14" font-weight="600" fill="#475569">Zscaler</text>
+
+<!-- ========== LEGEND ========== -->
+<rect x="160" y="1700" width="680" height="300" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="500" y="1740" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">LEGEND</text>
+<line x1="200" y1="1756" x2="800" y2="1756" stroke="#e2e8f0" stroke-width="1"/>
+
+<rect x="200" y="1780" width="32" height="22" rx="5" fill="#059669"/>
+<text x="246" y="1797" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">Device / Agent</text>
+
+<rect x="530" y="1780" width="32" height="22" rx="5" fill="#0891b2"/>
+<text x="576" y="1797" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">Analysis Server</text>
+
+<rect x="200" y="1822" width="32" height="22" rx="5" fill="#2563eb"/>
+<text x="246" y="1839" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">NAS Storage</text>
+
+<rect x="530" y="1822" width="32" height="22" rx="5" fill="#059669"/>
+<text x="576" y="1839" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">Chef Server</text>
+
+<line x1="200" y1="1875" x2="232" y2="1875" stroke="#475569" stroke-width="3" marker-end="url(#arrR)"/>
+<text x="246" y="1881" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">Direct Connection</text>
+
+<line x1="530" y1="1875" x2="562" y2="1875" stroke="#475569" stroke-width="3" marker-end="url(#arrR)" marker-start="url(#arrL)"/>
+<text x="576" y="1881" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">Bidirectional</text>
+
+<line x1="200" y1="1920" x2="232" y2="1920" stroke="#475569" stroke-width="3" stroke-dasharray="8,4" marker-end="url(#arrR)"/>
+<text x="246" y="1926" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">HTTPS Connection</text>
+
+<rect x="530" y="1910" width="32" height="22" rx="11" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="576" y="1926" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="500" fill="#334155">Encrypted</text>
+
+<!-- ========== NETWORK ZONES ========== -->
+<rect x="1060" y="1700" width="800" height="300" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="1460" y="1740" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">NETWORK ZONES</text>
+<line x1="1100" y1="1756" x2="1820" y2="1756" stroke="#e2e8f0" stroke-width="1"/>
+
+<rect x="1100" y="1778" width="56" height="28" rx="6" fill="#334155"/>
+<text x="1128" y="1798" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">ISZ</text>
+<text x="1176" y="1798" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#64748b">Internal Secure Zone</text>
+
+<rect x="1100" y="1824" width="56" height="28" rx="6" fill="#475569"/>
+<text x="1128" y="1844" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">CSZ</text>
+<text x="1176" y="1844" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#64748b">Configuration Secure Zone</text>
+
+<rect x="1100" y="1870" width="110" height="28" rx="6" fill="#e2e8f0"/>
+<text x="1155" y="1890" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#475569">Any Zone</text>
+<text x="1230" y="1890" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#64748b">General network zone</text>
+
+<rect x="1100" y="1916" width="110" height="28" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1"/>
+<text x="1155" y="1936" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="15" font-weight="600" fill="#92400e">Remote</text>
+<text x="1230" y="1936" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="17" font-weight="400" fill="#64748b">External access via VPN</text>
+
+</svg>
